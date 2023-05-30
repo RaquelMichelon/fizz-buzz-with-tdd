@@ -43,4 +43,14 @@ class FizzBuzzConversorTest {
 
     }
 
+    @Test
+    public void convertShouldReturnsFizzBuzzWhenMultipleOf5and3() {
+        FizzBuzzConversor fizzBuzzConversor = new FizzBuzzConversor();
+
+        String result = fizzBuzzConversor.convert(15);
+
+        assertEquals("FizzBuzz", result);
+
+    }
+
 }
