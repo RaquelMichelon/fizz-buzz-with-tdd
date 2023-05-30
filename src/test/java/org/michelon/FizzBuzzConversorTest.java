@@ -16,6 +16,11 @@ class FizzBuzzConversorTest {
         String result = fizzBuzzConversor.convert(1);
 
         assertEquals("1", result);
+
+        result = fizzBuzzConversor.convert(2);
+
+        assertEquals("2", result);
+
     }
 
 }
