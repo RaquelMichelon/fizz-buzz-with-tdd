@@ -31,6 +31,15 @@ class FizzBuzzConversorTest {
 
         assertEquals("Fizz", result);
 
+    }
+
+    @Test
+    public void convertShouldReturnsBuzzWhenMultipleOf5() {
+        FizzBuzzConversor fizzBuzzConversor = new FizzBuzzConversor();
+
+        String result = fizzBuzzConversor.convert(5);
+
+        assertEquals("Buzz", result);
 
     }
 
